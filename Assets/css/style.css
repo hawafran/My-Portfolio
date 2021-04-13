@@ -5,12 +5,20 @@
 
 
 body {
-  position: relative;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 20px;
   background-color: #f1e6e0ed;
   color: #1d1a19;
 }
+
+.text-center {
+ text-align: center;
+}
+
+.text-center li{
+display: inline;
+}
+
 
 .main-header,
 footer {
@@ -30,31 +38,33 @@ footer {
 h1 {
   margin-top:100px;
   margin-bottom:40px;
-}
-footer {
-  position: absolute;
-  margin-top:20px;
-  margin-bottom:0;
-  height:80px;
-  text-align: center;
+  margin-right:auto;
 }
 
-
-li {
-  display: inline; 
-}
-
-.text-right {
-  text-align: center;
-}
-
-
-img {
-  margin: 10px;
-  margin-left: auto;
+h2{
   margin-right: auto;
 }
 
+.profile-pic img {
+  margin-top:200px;
+  margin-bottom: 40px;
+  margin-left:25%;
+  height:300px;
+  width:200px;
+}
+
+p {
+  display:block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
 
 .main-card {
   height: 400px;
@@ -67,7 +77,7 @@ img {
 .main-card header {
   position: absolute;
   padding: 20px;
-  margin-top:180px;
+  margin-top:380px;
   background-color: #52a9ac;
 }
 
@@ -87,7 +97,7 @@ img {
 
 .card header {
   padding:10px;
-  margin-top:80px;
+  margin-top:210px;
   position:absolute;
   background-color: #52a9ac;
 }
@@ -97,6 +107,11 @@ img {
   width: 100%;
 }
 
+
+footer {
+  position: absolute;
+  height:80px;
+}
 
 
 
