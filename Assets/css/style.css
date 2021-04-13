@@ -39,25 +39,39 @@ h1 {
   margin-top:100px;
   margin-bottom:40px;
   margin-right:auto;
+  margin-left:15px;
 }
 
 h2{
-  margin-right: auto;
+  margin-left:auto;
+  padding-top:-51px;
+  padding-right:1300px
+}
+
+h3 {
+  margin-left: 15px;
+}
+
+.profile-pic{
+  margin-top:50px;
+  margin-bottom:80px;
+  height:350px;
+  width:600px;
+  margin-left: 30%;
+  margin-right: 385px;
 }
 
 .profile-pic img {
-  margin-top:200px;
-  margin-bottom: 40px;
-  margin-left:25%;
-  height:300px;
-  width:200px;
+height:80%;
+width:80%
 }
 
-p {
-  display:block;
+
+.profile-pic p {
   margin-bottom: 20px;
-  text-align: center;
 }
+
+
 
 main {
   display: flex;
