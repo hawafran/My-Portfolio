@@ -38,18 +38,18 @@ footer {
 h1 {
   margin-top:100px;
   margin-bottom:40px;
-  margin-right:auto;
-  margin-left:15px;
+  display:block;
 }
 
 h2{
-  margin-left:auto;
+  display:block;
   padding-top:-51px;
-  padding-right:1300px
+
 }
 
 h3 {
   margin-left: 15px;
+  display: block;
 }
 
 .profile-pic{
@@ -63,7 +63,8 @@ h3 {
 
 .profile-pic img {
 height:80%;
-width:80%
+width:80%;
+margin-bottom: 10px;
 }
 
 
@@ -77,7 +78,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .main-card {
@@ -91,7 +91,7 @@ main {
 .main-card header {
   position: absolute;
   padding: 20px;
-  margin-top:380px;
+  margin-top:300px;
   background-color: #52a9ac;
 }
 
@@ -111,7 +111,7 @@ main {
 
 .card header {
   padding:10px;
-  margin-top:210px;
+  margin-top:100px;
   position:absolute;
   background-color: #52a9ac;
 }
