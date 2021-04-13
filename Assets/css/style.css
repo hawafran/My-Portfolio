@@ -57,6 +57,22 @@ img {
 
 }
 
+.main-project {
+  display:block;
+  height: 400px;
+  width: 800px;
+  margin: 10px;
+  margin-left:30%;
+}
+
+.project {
+  display: inline-block;
+  height: 150px;
+  width: 300px;
+  margin:10px;
+  margin-left:30%;
+}
+
 
 
 
