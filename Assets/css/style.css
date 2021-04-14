@@ -35,16 +35,22 @@ footer {
   background-color: #52a9ac;
 }
 
+main {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
 h1 {
   margin-top:100px;
   margin-bottom:40px;
   display:block;
 }
 
-h2{
+h2 {
   display:block;
   padding-top:-51px;
-
+  padding-bottom: 15;
 }
 
 h3 {
@@ -72,18 +78,11 @@ margin-bottom: 10px;
   margin-bottom: 20px;
 }
 
-
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .main-card {
   height: 400px;
   width: 800px;
   margin-left:30%;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
