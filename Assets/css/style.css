@@ -138,6 +138,9 @@ footer {
   h2,
   h3 {
     flex-direction: column;
+    margin-left: auto;
+    margin-right:auto;
+    
   }}
 
 
